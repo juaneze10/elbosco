@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(223,212,138,1) 0%, rgba(110,101,32,1) 100%, rgba(0,212,255,1) 100%);
+}
+  
+header {
+    padding: 20px;
+    
+}
+
+.header--h1 {
+
+    color: white;
+    float: left;
+    font-family: 'Aboreto'
+}
+
+.header--nav {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-right-style: solid;
+    float: right;
+    font-family: 'Aboreto'
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*INDEX DISEÑO*/
+
+.imagenes--index {
+    width: 90%;
+    height: 90%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+}
+
+.imagenes--index:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+
+
+/*GALERIA DISEÑO*/
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+}
+
+.galeria h1 {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+    
+}
+
+.galeria h3 {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.galeria p {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+/*SECCION EL BOSCO*/
+
+.container_padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "elbo cab"
+    "elbo img"
+    "elbo pi";
+}
+
+.cabeza{
+    grid-area: cab;
+}
+
+.container_padre img {
+    grid-area: img;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+}
+
+.elbosco{
+    grid-area: elbo;
+}
+
+.elbosco h1 {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.elbosco h3 {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.elbosco p {
+    font-family: 'PT Serif', serif;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+/*SECCION NOSOTROS*/
+
+.nosotros img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+}
+
+.nosotros h1 {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.nosotros h3 {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.nosotros p {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+/*SECCION CONTACTO*/
+
+.contacto img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: auto;
+
+}
+
+.contacto h1 {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.contacto form {
+    font-family: 'PT Serif', serif;
+    width: 35%;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    
+}
+    
+/*FOOTER*/
+
+.pie{
+    grid-area: pi;
+    
+}
+
+.footer--iframe {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: auto;
+     
+}
+
+.footer--span {
+    color: white;
+    padding: 10px 30px;
+    border-right-style: solid;
+    font-family: 'Aboreto'
+}
+
+@media screen and (max-width: 480px) {
+    
+}
