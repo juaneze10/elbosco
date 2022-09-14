@@ -38,6 +38,8 @@ div{
     justify-content: space-around;
 }
 
+
+
 /*INDEX DISEÑO*/
 
 .imagenes--index {
@@ -229,7 +231,7 @@ div{
     
 }
 
-.contacto form {
+.contacto div {
     font-family: 'PT Serif', serif;
     width: 35%;
     height: 100%;
@@ -245,9 +247,18 @@ div{
     
 }
 
+
+footer{
+    display: block;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    width: 50%;
+}
+
 .footer--iframe {
     width: 100%;
-    height: 250px;
+    height: 300px;
     overflow: hidden;
     position: relative;
     margin: 200px auto;
